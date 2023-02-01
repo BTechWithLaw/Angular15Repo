@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TimerComponent } from './timer/timer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ObservablesPromisesComponent } from './observables-promises/observables-promises.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TimerComponent
+    TimerComponent,
+    ObservablesPromisesComponent
   ],
   imports: [
     BrowserModule,
